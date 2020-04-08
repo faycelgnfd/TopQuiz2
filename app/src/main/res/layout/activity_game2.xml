@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Controller.GameActivity">
+
+    <TextView
+        android:id="@+id/activity_game2_question"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="question"
+        android:textColor="#2196F3"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/activity_game2_answer1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:background="#2196F3"
+        android:text="answer1 1"
+        android:textColor="#FDFCFC"
+        tools:layout_marginTop="5dp" />
+
+    <Button
+        android:id="@+id/activity_game2_answer2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:background="#2196F3"
+        android:text="answer1 1"
+        android:textColor="#FDFCFC"
+        tools:layout_marginTop="5dp" />
+
+    <Button
+        android:id="@+id/activity_game2_answer3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:background="#2196F3"
+        android:text="answer1 1"
+        android:textColor="#FDFCFC"
+        tools:layout_marginTop="5dp" />
+
+    <Button
+        android:id="@+id/activity_game2_answer4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:background="#2196F3"
+        android:text="answer1 1"
+        android:textColor="#FDFCFC"
+        tools:layout_marginTop="5dp" />
+</LinearLayout>
